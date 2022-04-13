@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/css/base.css">  
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <title>Propietario</title>
+</head>
+<body>
+  <h1>$!title</h1>
+  <form action="/propietario" method="post" enctype="application/x-www-form-urlencoded">
+    <fieldset>
+      <legend>Datos personales</legend>
+      <input type="text" name="id" value="#if(!$id)0#else$id#end" hidden>
+      
+      <label for="nombres">Nombres</label>
+      <input type="text" name="nombres" value="$!nombres" id="nombres" required><br><br>
+  
+      <label for="apellidos">Apellidos</label>
+      <input type="text" name="apellidos" value="$!apellidos" id="apellidos" required><br><br>
+  
+      <label for="ci">CI</label>
+      <input type="text" name="ci" value="$!ci" id="ci" required> <br><br>
+
+      <button type="submit">Guardar</button> <a href="/propietario">Nuevo</a>
+    </fieldset>
+  </form>
+  <br>
+  <fieldset>
+    <legend>Listado de propietarios</legend>
+    
+    <table>
+      <thead>
+        <tr>
+          <td>Nombres</td>
+          <td>Apellidos</td>
+          <td>CI</td>
+          <td style="width: 100px;">Opciones</td>
+        </tr>
+      </thead>
+      <tbody>
+        $!tbody
+      </tbody>
+    </table>
+    
+  </fieldset>
+  <script src="/public/js/propietario.js"></script>
+</body>
+</html>

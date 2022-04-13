@@ -1,0 +1,35 @@
+*{
+  font-size: 20px;
+}
+body {
+  background-color: azure;
+}
+
+fieldset {
+  padding: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+input {
+  width: 300px;
+}
+
+table,
+thead,
+td {
+  border: 1px solid;
+}
+
+thead{
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+a {
+  text-decoration: none
+}
