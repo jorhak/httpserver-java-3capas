@@ -18,3 +18,12 @@
 > * JDK: 8 o superior
 > * JDBC: Sqlite
 > * Maven: 3.8
+
+> ### Ejecucion
+> * Es posible que la ejecucion desde Netbeans de este proyecto requiera permisos para abrir un puerto, esto depende de cada equipo y sistema operativo.
+> * Asignar permisos de lectura y escritura a todos los archivos.
+> * Ingresar la URL en el navegador web (localhost:8000) o el puerto que usted asigne.
+
+> ### Despliegue
+> * Construido el proyecto desde Netbeans
+> * Copiar las carpetas (lib, resources, public, templates) a la carpeta dist 
