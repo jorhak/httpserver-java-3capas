@@ -1,4 +1,4 @@
-package com.juanvladimir13.mvc;
+package com.juanvladimir13.capas;
 
 import com.juanvladimir13.httpserver.MaryServer;
 import com.juanvladimir13.template.MaryTemplate;

@@ -1,4 +1,4 @@
-package com.juanvladimir13.mvc.propietario.dato;
+package com.juanvladimir13.capas.propietario.dato;
 
 import com.juanvladimir13.database.MaryDatabase;
 import java.sql.SQLException;

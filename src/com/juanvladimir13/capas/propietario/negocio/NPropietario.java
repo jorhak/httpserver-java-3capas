@@ -1,6 +1,6 @@
-package com.juanvladimir13.mvc.propietario.negocio;
+package com.juanvladimir13.capas.propietario.negocio;
 
-import com.juanvladimir13.mvc.propietario.dato.DPropietario;
+import com.juanvladimir13.capas.propietario.dato.DPropietario;
 import java.util.List;
 import java.util.Map;
 

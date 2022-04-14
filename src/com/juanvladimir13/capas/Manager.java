@@ -1,9 +1,9 @@
-package com.juanvladimir13.mvc;
+package com.juanvladimir13.capas;
 
 import com.juanvladimir13.httpserver.PathManager;
 import com.juanvladimir13.httpserver.Response;
 import com.juanvladimir13.httpserver.RouteManager;
-import com.juanvladimir13.mvc.propietario.presentacion.PPropietario;
+import com.juanvladimir13.capas.propietario.presentacion.PPropietario;
 import com.juanvladimir13.template.MaryTemplate;
 import java.util.List;
 import java.util.Map;

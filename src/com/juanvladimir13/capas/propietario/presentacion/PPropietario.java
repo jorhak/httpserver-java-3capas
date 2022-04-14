@@ -1,7 +1,7 @@
-package com.juanvladimir13.mvc.propietario.presentacion;
+package com.juanvladimir13.capas.propietario.presentacion;
 
 import com.juanvladimir13.httpserver.Response;
-import com.juanvladimir13.mvc.propietario.negocio.NPropietario;
+import com.juanvladimir13.capas.propietario.negocio.NPropietario;
 import com.juanvladimir13.template.MaryTemplate;
 import java.util.HashMap;
 import java.util.List;
